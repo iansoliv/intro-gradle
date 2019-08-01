@@ -1,3 +1,6 @@
-task helloWorld << {
-    	  println 'Hello world!!'
+task helloWorld {
+	description= "Prints Hello World to the User."
+	doLast {    
+		println 'Hello World!!'
+	} 
 }
